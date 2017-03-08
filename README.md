@@ -1,6 +1,53 @@
 # cmd-cheatsheet
 
 
+## Github
+
+```
+* git branch    // To view the list of your branches
+
+* git checkout -b new_branch
+
+* git status
+
+* git add .
+
+* git commit -m "your commit"
+
+* git push
+
+* git reset --hard HEAD         // To revert to a previous commit, ignoring any changes
+
+* git clean -f -d       // to get rid of untracked files and directories in your working copy
+
+* git commit --amend -m "New commit message"     //To edit your latest commit
+
+* git push -f
+
+* git clone <project path>
+
+* rm -rf .git
+
+* heroku domains        //To view all your domains
+
+* heroku rake db:migrate
+
+* git push -f heroku master
+
+* git remote add origin <link>
+
+* git pull / git fetch / git clone
+
+* mkdir <foldername>
+
+* touch <filename>.md
+
+* pwd
+
+* ls
+```
+
+
 ## Rails
 
 ```
@@ -49,52 +96,6 @@
 ```
 
 
-## Github
-
-```
-* git branch    // To view the list of your branches
-
-* git checkout -b new_branch
-
-* git status
-
-* git add .
-
-* git commit -m "your commit"
-
-* git push
-
-* git reset --hard HEAD         // To revert to a previous commit, ignoring any changes
-
-* git clean -f -d       // to get rid of untracked files and directories in your working copy
-
-* git commit --amend -m "New commit message"     //To edit your latest commit
-
-* git push -f
-
-* git clone <project path>
-
-* rm -rf .git
-
-* heroku domains        //To view all your domains
-
-* heroku rake db:migrate
-
-* git push -f heroku master
-
-* git remote add origin <link>
-
-* git pull / git fetch / git clone
-
-* mkdir <foldername>
-
-* touch <filename>.md
-
-* pwd
-
-* ls
-```
-
 ## NodeJS
 
 ```
@@ -114,7 +115,7 @@
 
 * npm uninstall <package>
 
-* nom uninstall -g <package>
+* npm uninstall -g <package>
 
 * nvm install 6  	//To update nodejs to the latest version
 
