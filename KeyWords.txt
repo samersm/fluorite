@@ -1,0 +1,11 @@
+Spotlight
+
+- CRUD
+
+- VANILLA
+
+- User Authentication
+
+- Web scraping
+
+- SAAS, PAAS, IAAS
