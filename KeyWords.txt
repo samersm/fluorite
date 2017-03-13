@@ -10,6 +10,10 @@ Spotlight
 
 - SAAS, PAAS, IAAS
 
-- GUI Programming
+- GUI Programming, GUI, Mobile Games GUI
 
 - Material Design
+
+- UI, Mobile UI
+
+- awesome-things

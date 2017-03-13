@@ -42,9 +42,14 @@
 
 * touch <filename>.md
 
-* pwd
+* pwd   // print working directory - shows what directory you are in
 
-* ls
+* ls    // list the files in this directory
+
+* git log  	//show all commits
+
+* git log —stat 	//Show more details on commits
+
 ```
 
 

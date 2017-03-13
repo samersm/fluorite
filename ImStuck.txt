@@ -1,0 +1,10 @@
+Rails
+
+// To view javascript in rails
+$(document).on('turbolinks:load', function() {
+  // Your code here
+});
+
+// Github search
+topic:<things> search
+
