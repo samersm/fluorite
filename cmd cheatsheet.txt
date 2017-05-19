@@ -4,7 +4,7 @@ Rails Commands Cheatsheet
 Rails
 
 * rails -h      // to show all command lines)
-    
+
 * gem install rails
 
 * rails new name
@@ -95,6 +95,11 @@ Github
 * git log  	//show all commits
 
 * git log —stat 	//Show more details on commits
+
+* git remote add origin <link> 	//To pull from github to local machine
+
+* git pull origin master 			//To pull from github to local machine
+
 
 
 NodeJS

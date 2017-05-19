@@ -50,6 +50,9 @@
 
 * git log —stat 	//Show more details on commits
 
+* git remote add origin <link> 	//To pull from github to local machine
+
+* git pull origin master 			//To pull from github to local machine
 ```
 
 
@@ -57,7 +60,7 @@
 
 ```
 * rails -h      // to show all command lines)
-    
+
 * gem install rails
 
 * rails new name
