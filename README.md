@@ -75,6 +75,8 @@
 
 * rails routes
 
+* rails db:migrate
+
 * cd rails-projects/saasapp/
 
 * rails s -b $IP -p $PORT
