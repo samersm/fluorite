@@ -8,3 +8,22 @@ $(document).on('turbolinks:load', function() {
 // Github search
 topic:<things> search
 
+// To add icon in the application
+'Add icon to app/assets/images/favicon'
+app/assets/images/favicon
+'Add this line of code in application.html.erb file'
+<%= favicon_link_tag %>
+
+// To change column type and name
+$ rails g migration <table_name>
+db/migrate/file
+def change
+  change_column :your_table, :your_column, :text
+  rename_column :table, :old_column, :new_column
+end
+
+// To add column to an existing table
+$ rails generate migration <add_fieldname_to_tablename fieldname:string>
+example
+$ rails g migration <add_email_to_users email:string>
+$ rails db:migrate

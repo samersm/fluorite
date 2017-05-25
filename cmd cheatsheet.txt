@@ -36,7 +36,7 @@ Rails
 
 * rails g controller Users show
 
-* rails g scaffold User title:string decription:string
+* rails g scaffold User title:string description:text
 
 * rails g paperclip profile avatar
 

@@ -63,7 +63,7 @@
 
 * gem install rails
 
-* rails new name
+* rails new <name>
 
 * bundle install
 
@@ -88,15 +88,15 @@
         Contact.all
         Contact.create(name: "test", description: "test")
 
-* rails g migrate UserProfiles
+* rails g migrate <UserProfiles>
 
-* rails g controller Users show
+* rails g controller <Users> <show>
 
-* rails g scaffold User title:string decription:string
+* rails g scaffold <User title:string description:text>
 
-* rails g paperclip profile avatar
+* rails g paperclip <profile> <avatar>
 
-* rails g model Play title:string description:text director:string
+* rails g model <Play title:string description:text director:string>
 
 * rails g controller Plays -s    // -s means that skip the existing files
 
