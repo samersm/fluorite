@@ -59,9 +59,17 @@
 ## Rails
 
 ```
+* ruby -v
+
+* rvm install ruby-2.4.1  // To update ruby
+
+* rvm --default use 2.4.1   // To upgrade ruby in c9
+
 * rails -h      // to show all command lines)
 
 * gem install rails
+
+* rails -v
 
 * rails new <name>
 
