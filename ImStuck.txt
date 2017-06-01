@@ -27,3 +27,9 @@ $ rails generate migration <add_fieldname_to_tablename fieldname:string>
 example
 $ rails g migration <add_email_to_users email:string>
 $ rails db:migrate
+
+// To delete column from existing table
+$ rails g migration <table_name>
+def change
+  remove_column :table_name, :column_name
+end
