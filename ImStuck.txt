@@ -1,12 +1,15 @@
+Github
+
+// Github search
+topic:<things> search
+
+
 Rails
 
 // To view javascript in rails
 $(document).on('turbolinks:load', function() {
   // Your code here
 });
-
-// Github search
-topic:<things> search
 
 // To add icon in the application
 'Add icon to app/assets/images/favicon'
@@ -33,3 +36,13 @@ $ rails g migration <table_name>
 def change
   remove_column :table_name, :column_name
 end
+
+
+
+NodeJS
+
+// To show all JS Variables in the terminal
+$ node
+$ global
+or
+$ window   // In the browser
