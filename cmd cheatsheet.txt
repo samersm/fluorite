@@ -114,25 +114,27 @@ Github
 
 NodeJS
 
-* npm init
+* npm init      // To start a new npm project
 
-* npm install -g
+* npm install   // To install all the dependencies in package.json file
 
-* npm install -s
+* npm install -g <package>        // To install npm package globally
+
+* npm install -s <package>        // To install npm and save it to a package.json file
 
 * npm start
 
-* npm list
+* npm list      // To view all the npm list
 
-* npm list -g --depth=0
+* npm list -g --depth=0         // To view all downloaded npm list
 
 * npm cache clean
 
 * npm uninstall <package>
 
-* nom uninstall -g <package>
+* npm uninstall -g <package>
 
-* nvm install 6  	//To update nodejs to the latest version
+* nvm install 6.0.0  	//To update nodejs to the latest version
 
 * nvm install node
 
