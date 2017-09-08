@@ -1,0 +1,52 @@
+Long Term Projects and Ideas
+
+HTML Museum 
+* modern html page that contain all of my projects
+
+Resume Website
+* a Website about that contain some description about me
+
+
+NodeJS
+Generate-txt-app
+* The app should generete random text from a database or from api
+
+file-converter-app
+* The app should contain easy ways to convert files like(drag and drop, multifile upload, etc.)
+
+VideoDownloader
+* The porject should have the ability to download videos from different websites like(youtube, twitter, instagaram and facebook)
+
+Druid-24 (express, mongodb) Based App
+Project Description
+* This is a Core Base NodeJS Project so that mean this project should contain All basic nodejs elements and the advanced elements with ability of register, login, logout, post, edit, view and remove.
+* It also should be application project and available on app store & google play
+* This project should be the source project
+Standards and Basics
+* Use Express Routing
+* Make an About, Contact, and Home page
+Design and Layout
+* design layout with bootstrap
+* Change bootstrap codes to pug
+Users and Registration
+* 
+npm packages
+* install bootstrap npm
+* install jquery npm
+//    npm explore
+* mongoose, mongodb
+* gulp
+* socketio
+
+<Name> (Angular 2, Firebase) Based App
+
+
+Rails
+Make a Rails core Based Project
+
+Ametrine
+* The project should focus on article and blog side
+* The project should be in modern design
+* The project should contain categories and rating system
+* The project should have an home, about and contact page
+* The project should contain a comments system

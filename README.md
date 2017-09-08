@@ -1,3 +1,7 @@
+# Fluorite
+
+###### The fluorite gemstone’s attributes are predominantly connected with specific area of fortification and stabilization.
+
 # cmd-cheatsheet
 
 
@@ -16,6 +20,8 @@
 
 * git push
 
+* git push --set-upstream origin master         // To use only git push to github
+
 * git reset --hard HEAD         // To revert to a previous commit, ignoring any changes
 
 * git clean -f -d       // to get rid of untracked files and directories in your working copy
@@ -27,6 +33,8 @@
 * git clone <project path>
 
 * rm -rf .git
+
+* git remote rename <old> <new>         // To rename a project in git
 
 * heroku domains        //To view all your domains
 

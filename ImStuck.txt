@@ -3,8 +3,6 @@ Github
 // Github search
 topic:<things> search
 
-* test git push with origin master
-$ git push --set-upstream origin master
 
 Rails
 
