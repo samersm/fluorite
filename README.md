@@ -158,6 +158,8 @@
 * ng serve --host 0.0.0.0 --port $IP  	//to run angular 2 app
 
 * ng serve --host 0.0.0.0 --port 8080 --live-reload-port 8081
+
+* ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
 ```
 
 ## python
