@@ -190,3 +190,35 @@
 
 * python manage.py runserver $IP:$PORT
 ```
+
+
+## CodeIgniter
+```
+// setting up phpmyadmin for c9
+$ mysql-ctl install
+$ phpmyadmin-ctl install
+$ mysql-ctl start
+
+// php c9 updates commands
+$ sudo apt-get update
+$ sudo apt-get install libmcrypt-dev
+
+$ curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
+$ chmod +x phpbrew
+$ sudo mv phpbrew /usr/local/bin/
+$ phpbrew init
+
+$ [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
+
+$ phpbrew lookup-prefix ubuntu
+
+$ phpbrew install 7.1.9 +default
+$ phpbrew switch php-7.1.9
+$ phpbrew use php-7.1.9
+$ php -v
+
+// Works Fine!
+
+// To unzip file from c9
+$ unzip <my_arch>.zip
+```
