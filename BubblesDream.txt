@@ -18,19 +18,19 @@ VideoDownloader
 * The porject should have the ability to download videos from different websites like(youtube, twitter, instagaram and facebook)
 
 Druid-24 (express, mongodb) Based App
-Project Description
+Project Description:
 * This is a Core Base NodeJS Project so that mean this project should contain All basic nodejs elements and the advanced elements with ability of register, login, logout, post, edit, view and remove.
 * It also should be application project and available on app store & google play
 * This project should be the source project
-Standards and Basics
+Standards and Basics:
 * Use Express Routing
 * Make an About, Contact, and Home page
-Design and Layout
+Design and Layout:
 * design layout with bootstrap
 * Change bootstrap codes to pug
 Users and Registration
 * 
-npm packages
+npm packages:
 * install bootstrap npm
 * install jquery npm
 //    npm explore
@@ -50,3 +50,27 @@ Ametrine
 * The project should contain categories and rating system
 * The project should have an home, about and contact page
 * The project should contain a comments system
+
+
+CodeIgniter
+Make a CodeIgniter core Based Project
+
+Clacite
+pages and layout:
+* Make a contact form
+* Make an item list contain (..., ..., )
+* Make a view item page
+* Make a login and register forms
+* Make a profile page so each user should have a profile id
+* View the item id in the item list
+back end programming:
+* photos and pictures upload
+* File upload
+* The data should be stored once
+* The program should avoid duplicate insertion from the database
+* There are admin user and regaular user
+* The admin should have the ability to create or delete users
+* The program should have three kind of users (Admin user, Emplyee Users, nurmal users)
+* The user shoud have a specific id
+* Every item should have a specific id
+
