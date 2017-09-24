@@ -58,6 +58,8 @@
 
 * git log —stat 	//Show more details on commits
 
+* git-diff      //Show changes between commits, commit and working tree, etc
+
 * git remote add origin <link> 	//To pull from github to local machine
 
 * git pull origin master 			//To pull from github to local machine
