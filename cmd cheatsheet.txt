@@ -62,7 +62,21 @@ Github
 
 * git branch    // To view the list of your branches
 
-* git checkout -b new_branch
+* git branch new_branch         // To create a branch
+
+* git checkout -b new_branch    // To create a branch and switch to it
+
+* git checkout branch_name      //To switch branch
+
+* git checkout master   // To merge branche to master
+
+* git pull origin master
+
+* git merge testBranch
+
+* git push origin master        // To Push the changes to master
+
+* git remote rename <old> <new>         // To rename a project in git
 
 * git status
 
@@ -115,6 +129,14 @@ Github
 * git remote add origin <link> 	//To pull from github to local machine
 
 * git pull origin master 			//To pull from github to local machine
+
+* mv <folder to move> <destination>     // To move folder with git
+
+* mv /home/<user>/South_America /home/<user>/North_America/
+
+* mv ~/workspace/clone/<your_project>/ ~/workspace/projects/           // In C9
+
+* git remote set-url origin git@github.com:username/repo.git    // To wrok whith github repo after cloning
 
 
 
