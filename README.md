@@ -26,6 +26,10 @@
 
 * git push -f
 
+* git reflog    //To get a detailed specific 
+
+* git revert HEAD   //To undone the latest commit and you can push the new changes normally
+
 * git clone <project path>
 
 * rm -rf .git
@@ -45,6 +49,10 @@
 * git merge testBranch
 
 * git push origin master        // To Push the changes to master
+
+* git rebase master     // To Take the master codes into different branch
+
+* git rebase --skip     // To skipping the commits already in master
 
 * git remote rename <old> <new>         // To rename a project in git
 
