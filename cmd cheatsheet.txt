@@ -104,6 +104,8 @@ Github
 
 * git revert HEAD   //To undone the latest commit and you can push the new changes normally
 
+* git clone -b <branch> <remote_repo>
+
 * git clone <project path>
 
 * rm -rf .git
