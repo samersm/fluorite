@@ -82,7 +82,21 @@
 
 * git-diff      //Show changes between commits, commit and working tree, etc
 
-* git remote add origin <link> 	//To pull from github to local machine
+* git checkout <commit id>      // To get back and check a specific commit
+
+* git checkout master       // To get back to the head commit
+
+* git stash         // To checkout without commit the changes
+
+* git stash list
+
+* git stash show
+
+* git stash apply   // To get back to the uncommitted changes
+
+* git stash clear   // You should clear your stash after applying it
+
+* git remote add origin <link> 	//To link github to a local machine
 
 * git pull origin master 			//To pull from github to local machine
 
