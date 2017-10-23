@@ -30,6 +30,10 @@
 
 * git revert HEAD   //To undone the latest commit and you can push the new changes normally
 
+* git revert --no-commit HEAD         // To revert two or more commits
+
+* git revert --no-commit <commit id>    // Then You can commit and push normally
+
 * git clone -b <branch> <remote_repo>
 
 * git clone <project path>
