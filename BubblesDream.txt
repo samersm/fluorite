@@ -40,6 +40,29 @@ npm packages:
 
 <Name> (Angular 2, Firebase) Based App
 
+wall-e2
+ng serve --host 0.0.0.0 --public-host https://druid-24-mrsamer.c9users.io/
+* AngularJS Core Based App with using of firebase database
+* This paroject is all about wallpapers cumminity
+Pages and Layout
+* Make The main view page
+* Make a contact form
+* Make a comments system
+* The wallpaper should have (like and favorite) buttons
+* Make an about page
+Backend Reqiurements
+* The App should have three type if users (Admin, Supervisors, Nurmal User)
+* The App should contain rating system for every wallpaper
+* The app should have comment system for every wallpaper
+* The admin should have the ability to create users
+* The admin should have the ability to delete users or content
+* The app should have a category and tags
+* The user should have the ability to like and favorite
+* The user should have the ability to upload wallpaper with the available categories
+* The admin should have the ability to view users messages and reply to them
+* The App should avoid dublicated users by their emails
+
+
 
 Rails
 Make a Rails core Based Project

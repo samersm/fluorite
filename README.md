@@ -119,7 +119,9 @@
 ```
 * ruby -v
 
-* rvm install ruby-2.4.1  // To update ruby
+* brew upgrade ruby     //To update ruby with brew
+
+* rvm install ruby-2.4.1  // To update ruby with rvm
 
 * rvm --default use 2.4.1   // To upgrade ruby in c9
 
@@ -195,7 +197,9 @@
 
 * npm uninstall -g <package>
 
-* nvm install 6.0.0  	//To update nodejs to the latest version
+* brew upgrade node     //To update node with brew
+
+* nvm install 6.0.0  	//To update nodejs to the latest version with nvm
 
 * nvm install node
 

@@ -16,12 +16,18 @@ Spotlight
 
 - UI, Mobile UI
 
-- awesome-things
+- Awesome-things
 
 - Logo Set
 
-- marketing an app
+- Marketing an app
 
-- marketing a website
+- Marketing a website
 
 - Codepen Tag 
+
+- Patterns
+
+- SVG background patterns
+
+- Bootstrap Cards
