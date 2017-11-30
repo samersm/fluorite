@@ -121,6 +121,8 @@
 
 * brew upgrade ruby     //To update ruby with brew
 
+* rvm list rubies       //Check if rvm is installed
+
 * rvm install ruby-2.4.1  // To update ruby with rvm
 
 * rvm --default use 2.4.1   // To upgrade ruby in c9
