@@ -170,6 +170,12 @@ Github
 
 * git remote set-url origin git@github.com:username/repo.git    // To wrok whith github repo after cloning
 
+$ c9 ../../folder/file.html   // To open file in c9
+
+$ open file.html  // To open a file in mac os
+
+$ open -a "Atom" file.html  // To open a file in mac os with specific app.
+
 
 
 NodeJS

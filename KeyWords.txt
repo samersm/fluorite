@@ -31,3 +31,5 @@ Spotlight
 - SVG background patterns
 
 - Bootstrap Cards
+
+- Genre, Category, Tags

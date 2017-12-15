@@ -26,7 +26,7 @@
 
 * git push -f
 
-* git reflog    //To get a detailed specific 
+* git reflog    //To get a detailed specific
 
 * git revert HEAD   //To undone the latest commit and you can push the new changes normally
 
@@ -111,6 +111,12 @@
 * mv ~/workspace/clone/<your_project>/ ~/workspace/projects/           // In C9
 
 * git remote set-url origin git@github.com:username/repo.git    // To wrok whith github repo after cloning
+
+$ c9 ../../folder/file.html   // To open file in c9
+
+$ open file.html  // To open a file in mac os
+
+$ open -a "Atom" file.html  // To open a file in mac os with specific app.
 ```
 
 

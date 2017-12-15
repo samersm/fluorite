@@ -1,0 +1,7 @@
+$ Ctrl-C    //To stop
+
+$ Ctrl-D    //To exit
+
+$ Q   //To quit
+
+$ Shift + CMD + D   // To duplicate a single line in c9 editor
