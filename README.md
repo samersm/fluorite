@@ -104,6 +104,12 @@
 
 * git pull origin master 			//To pull from github to local machine
 
+* git remote add upstream <Github Link URL>         // To Fork a github rebository <Fork from website>
+
+* git remote -v         // Then Clone the repository
+
+* git pull upstream master              // Use upstream to sync
+
 * mv <folder to move> <destination>     // To move folder with git
 
 * mv /home/<user>/South_America /home/<user>/North_America/
