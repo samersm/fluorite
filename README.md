@@ -159,6 +159,8 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * rails db:migrate
 
+* rails db:reset        //Reset-Rebuild database/tables/columns based on migration
+
 * cd rails-projects/saasapp/
 
 * rails s -b $IP -p $PORT
