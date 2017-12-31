@@ -277,3 +277,29 @@ $ php -v
 
 // To unzip file from c9
 $ unzip <my_arch>.zip
+
+
+Homebew
+* brew list
+
+* brew update
+
+* brew install <packagename>
+
+* brew upgrade <packagename>    //To update single package
+
+* brew link --overwrite <packagename>
+
+* brew postinstall <packagename>
+
+* brew uninstall <packagename>
+
+* brew cleanup
+
+* brew services list    //Check for serveces Running/Stopped
+
+* sudo chown -R $(whoami) /usr/local 
+* sudo chown “whoami” /data/db
+
+* brew services start mongodb
+        * mongo

@@ -35,3 +35,5 @@ Spotlight
 - Genre, Category, Tags
 
 - Background Processing
+
+- Readme, Requirements, OverView, Roadmap
