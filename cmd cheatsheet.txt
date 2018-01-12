@@ -208,6 +208,14 @@ NodeJS
 
 * npm update    // To update all packages in the same directory as the package.json
 
+* npm update <package>    // To update one installed package in the same directory
+
+* npm outdated -g --depth=0     //To find out which global packages need to be updated
+
+* npm update -g         //To update all global packages
+
+* npm update -g <package>         //To update one global package
+
 * npm cache clean
 
 * npm uninstall -s <package>
