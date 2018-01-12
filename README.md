@@ -205,11 +205,17 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * npm list      // To view all the npm list
 
-* npm list -g --depth=0         // To view all downloaded npm list
+* npm list --depth=0         // To view all installed npm list in the project/dir
+
+* npm list -g --depth=0         // To view all globally installed npm list 
+
+* npm outdated          //To check witch packages need to update
+
+* npm update    // To update all packages in the same directory as the package.json
 
 * npm cache clean
 
-* npm uninstall <package>
+* npm uninstall -s <package>
 
 * npm uninstall -g <package>
 
