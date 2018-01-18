@@ -238,6 +238,23 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 * nvm alias default v7.4.0
 
 * npm install -g npm    // Update npm
+```
+
+
+## Angular
+
+```
+* npm install -g @angular/cli
+
+* ng new <appName>      //To create a new angular project
+
+* ng new <appName> --directory ./       //To create new app in the same dir/
+
+* ng generate component controllers/heroes
+
+* ng generate module config/app-routing --flat --module=app
+
+* ng g service services/hero --module=app
 
 * ng serve --host 0.0.0.0 --port $IP  	//to run angular 2 app
 
@@ -245,6 +262,7 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
 ```
+
 
 ## python
 

@@ -234,9 +234,27 @@ NodeJS
 
 * npm install -g npm    // Update npm
 
+
+
+Angular
+
+* npm install -g @angular/cli
+
+* ng new <appName>      //To create a new angular project
+
+* ng new <appName> --directory ./       //To create new app in the same dir/
+
+* ng generate component controllers/heroes
+
+* ng generate module config/app-routing --flat --module=app
+
+* ng g service services/hero --module=app
+
 * ng serve --host 0.0.0.0 --port $IP  	//to run angular 2 app
 
-* ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io // To run updated angular 2
+* ng serve --host 0.0.0.0 --port 8080 --live-reload-port 8081
+
+* ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
 
 
 python
