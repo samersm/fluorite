@@ -196,6 +196,8 @@ NodeJS
 
 * npm install -s <package>        // To install npm and save it to a package.json file
 
+* npm install --save-dev @angular/cli@latest    // To install packcage in dev dependencies with latest version
+
 * npm start
 
 * npm list      // To view all the npm list
@@ -244,7 +246,7 @@ Angular
 
 * ng new <appName> --directory ./       //To create new app in the same dir/
 
-* ng generate component controllers/heroes
+* ng generate component views/heroes
 
 * ng generate module config/app-routing --flat --module=app
 
@@ -280,7 +282,7 @@ django
 
 * python manage.py runserver $IP:$PORT
 
-CodeIgniter
+PHP
 // setting up phpmyadmin for c9
 $ mysql-ctl install
 $ phpmyadmin-ctl install

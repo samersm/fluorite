@@ -201,6 +201,8 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * npm install -s <package>        // To install npm and save it to a package.json file
 
+* npm install --save-dev @angular/cli@latest    // To install packcage in dev dependencies with latest version
+
 * npm start
 
 * npm list      // To view all the npm list
@@ -250,7 +252,7 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * ng new <appName> --directory ./       //To create new app in the same dir/
 
-* ng generate component controllers/heroes
+* ng generate component views/heroes
 
 * ng generate module config/app-routing --flat --module=app
 
@@ -294,7 +296,8 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 ```
 
 
-## CodeIgniter
+## PHP
+
 ```
 // setting up phpmyadmin for c9
 $ mysql-ctl install
@@ -327,6 +330,7 @@ $ unzip <my_arch>.zip
 
 
 ## Homebew
+
 ```
 * brew list
 

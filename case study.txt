@@ -62,5 +62,8 @@ c# Basics EN
 CCNA 200-125 2017
 20
 
+Angular Front-to-Back
+51
+
 Web dev :
 Ch-08, 05&08 watch later
