@@ -225,6 +225,10 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * npm cache clean
 
+* npm cache verify              // Cache clean for the new node version
+
+* npm prune     // Allow you to delete Nodejs project (u need to clear package.json first)
+
 * npm uninstall -s <package>
 
 * npm uninstall -g <package>

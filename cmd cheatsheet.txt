@@ -218,7 +218,11 @@ NodeJS
 
 * npm update -g <package>         //To update one global package
 
+* npm prune     // Allow you to delete Nodejs project (u need to clear package.json first)
+
 * npm cache clean
+
+* npm cache verify              // Cache clean for the new node version
 
 * npm uninstall -s <package>
 
