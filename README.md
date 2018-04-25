@@ -258,6 +258,8 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * ng generate component views/heroes
 
+* ng generate component pages/dashboard
+
 * ng generate module config/app-routing --flat --module=app
 
 * ng g service services/hero --module=app
@@ -269,6 +271,30 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 * ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
 ```
 
+## React
+```
+* npm install -g create-react-app
+
+* create-react-app <appName>
+```
+
+## MongoDB
+```
+* brew update
+
+* brew install mongodb
+
+* brew services start mongodb
+
+* mongo
+        // Inside the console shell
+        * show dbs
+        * use <DB Name>         // To create new db
+        * show collections      // To view tables
+        * db.createCollection('tablename')
+        * db.tablename.insert((name:'data', title:'data'))       // To Insert data to the database
+        * db.tablename.find()   // To View inserted data
+```
 
 ## python
 
