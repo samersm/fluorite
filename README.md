@@ -256,6 +256,8 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 
 * ng new <appName> --directory ./       //To create new app in the same dir/
 
+* ng new <appName> --directory <FolderName>       //To create ng app with specific folder name
+
 * ng generate component views/heroes
 
 * ng generate component pages/dashboard
@@ -292,8 +294,9 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
         * use <DB Name>         // To create new db
         * show collections      // To view tables
         * db.createCollection('tablename')
-        * db.tablename.insert((name:'data', title:'data'))       // To Insert data to the database
+        * db.tablename.insert({name:'data', title:'data'})       // To Insert data to the database
         * db.tablename.find()   // To View inserted data
+        * db.tablename.find().pretty()   // More orgnized view to data
 ```
 
 ## python
