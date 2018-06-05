@@ -8,19 +8,19 @@
 
 
 ## NodeJS
-Generate-txt-app
+### Generate-txt-app
 * The app should generete random text from a database or from api
 
-## file-converter-app
+### file-converter-app
 * The app should contain easy ways to convert files like(drag and drop, multifile upload, etc.)
 
-## VideoDownloader
+### VideoDownloader
 * The porject should have the ability to download videos from different websites like(youtube, twitter, instagaram and facebook)
 
-## QuotesField
+### QuotesField
 * QuotesField is a app that generate random quotes inside random pictures
 
-## Druid-24 (express, mongodb) Based App
+### Druid-24 (express, mongodb) Based App
 Project Description:
 * This is a Core Base NodeJS Project so that mean this project should contain All basic nodejs elements and the advanced elements with ability of register, login, logout, post, edit, view and remove.
 * It also should be application project and available on app store & google play
@@ -43,7 +43,7 @@ npm packages:
 
 <Name> (Angular 2, Firebase) Based App
 
-## wall-e2
+### wall-e2
 ng serve --host 0.0.0.0 --public-host https://druid-24-mrsamer.c9users.io/
 * AngularJS Core Based App with using of firebase database
 * This paroject is all about wallpapers cumminity
@@ -70,7 +70,7 @@ Backend Reqiurements
 ## Rails
 Make a Rails core Based Project
 
-## Ametrine
+### Ametrine
 * The project should focus on article and blog side
 * The project should be in modern design
 * The project should contain categories and rating system
@@ -81,7 +81,7 @@ Make a Rails core Based Project
 ## CodeIgniter
 Make a CodeIgniter core Based Project
 
-## Clacite
+### Clacite
 pages and layout:
 * Make a contact form
 * Make an item list contain (..., ..., )
