@@ -106,9 +106,11 @@
 
 * git remote add upstream <Github Link URL>         // To Fork a github rebository <Fork from website>
 
-* git remote -v         // Then Clone the repository
+* git remote -v         // To view upstream urls Then Clone the repository
 
 * git pull upstream master              // Use upstream to sync
+
+* git remote set-url origin <https://github.com/USERNAME/REPOSITORY.git>        // To change upstream url
 
 * mv <folder to move> <destination>     // To move folder with git
 
