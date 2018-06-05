@@ -267,11 +267,13 @@ Angular
 * ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
 
 
-React
+Loopbakck
 
-* npm install -g create-react-app
+* npm install -g loopback-cli
 
-* create-react-app <appName>
+* lb  //initial loopback setup
+
+* lb model      // To create model
 
 
 Mongodb
@@ -291,6 +293,13 @@ Mongodb
         * db.tablename.insert({name:'data', title:'data'})      // To Insert data to the database
         * db.tablename.find()   // To View inserted data
         * db.tablename.find().pretty()   // More orgnized view to data
+
+
+React
+
+* npm install -g create-react-app
+
+* create-react-app <appName>
 
         
 python
@@ -362,7 +371,7 @@ Homebew
 
 * brew uninstall <packagename>
 
-* brew cleanup
+* brew cleanup          // To get rid of old versions installed & cache
 
 * brew services list    //Check for serveces Running/Stopped
 

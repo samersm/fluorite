@@ -273,12 +273,16 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 * ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
 ```
 
-## React
-```
-* npm install -g create-react-app
 
-* create-react-app <appName>
+## Loopbakck
 ```
+* npm install -g loopback-cli
+
+* lb  //initial loopback setup
+
+* lb model      // To create model
+```
+
 
 ## MongoDB
 ```
@@ -298,6 +302,15 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
         * db.tablename.find()   // To View inserted data
         * db.tablename.find().pretty()   // More orgnized view to data
 ```
+
+
+## React
+```
+* npm install -g create-react-app
+
+* create-react-app <appName>
+```
+
 
 ## python
 
@@ -379,7 +392,7 @@ $ unzip <my_arch>.zip
 
 * brew uninstall <packagename>
 
-* brew cleanup
+* brew cleanup          // To get rid of old versions installed & cache
 
 * brew services list    //Check for serveces Running/Stopped
 
