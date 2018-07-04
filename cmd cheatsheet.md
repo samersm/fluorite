@@ -254,6 +254,8 @@ Angular
 
 * ng new <appName> --directory <FolderName>       //To create ng app with specific folder name
 
+* ng new <appName> --directory <FolderName> --skip-git       //To create ng app with specific folder name and skip the angular initial git
+
 * ng generate component views/heroes
 
 * ng generate component pages/dashboard
