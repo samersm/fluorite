@@ -281,8 +281,16 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 * npm install -g loopback-cli
 
 * lb  //initial loopback setup
+    * Project name (api)? quotesfield
+    * Project dir_ (quotesfield)? /
+
+* lb --skip-install     // To Create lb project without auto npm installing
 
 * lb model      // To create model
+
+* lb -l         // For Available Commands
+
+* lb -h         // For Help
 ```
 
 
