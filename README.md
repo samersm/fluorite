@@ -320,7 +320,9 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 ```
 * npm install -g create-react-app
 
-* create-react-app <appName>
+* npx create-react-app <appName>
+
+* npx create-react-app .        //To create in the current folder
 ```
 
 
