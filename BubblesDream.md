@@ -100,3 +100,6 @@ back end programming:
 * The user shoud have a specific id
 * Every item should have a specific id
 
+## Company Name Suggestions
+* Pararellax Inc.
+* Rosematic Inc.
