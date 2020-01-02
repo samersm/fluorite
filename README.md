@@ -106,6 +106,8 @@
 
 * git remote add upstream <Github Link URL>         // To Fork a github rebository <Fork from website>
 
+* git push upstream             // To push to the upstream cloned repository
+
 * git remote -v         // To view upstream urls Then Clone the repository
 
 * git pull upstream master              // Use upstream to sync
