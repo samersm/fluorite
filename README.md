@@ -228,7 +228,7 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 ```
 
 
-## Loopbakck
+## Loopback
 ```
 * npm install -g loopback-cli
 
