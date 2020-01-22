@@ -54,6 +54,16 @@
 
 * git merge testBranch
 
+        // To quit the terminal and commit you have to do
+
+        <esc> :w <enter>
+        to write to the file and
+
+        <esc> :q <enter>
+        to quit. Note: things in <> denote key presses.
+
+        or Press Esc, next type ":wq" and press Enter
+
 * git push origin master        // To Push the changes to master
 
 * git rebase master     // To Take the master codes into different branch
@@ -127,70 +137,6 @@ $ c9 ../../folder/file.html   // To open file in c9
 $ open file.html  // To open a file in mac os
 
 $ open -a "Atom" file.html  // To open a file in mac os with specific app.
-```
-
-
-## Rails
-
-```
-* ruby -v
-
-* brew upgrade ruby     //To update ruby with brew
-
-* rvm list rubies       //Check if rvm is installed
-
-* rvm install ruby-2.4.1  // To update ruby with rvm
-
-* rvm --default use 2.4.1   // To upgrade ruby in c9
-
-* rails -h      // to show all command lines)
-
-* gem install rails
-
-* rails -v
-
-* rails new <name>
-
-* bundle install
-
-* bundle check
-
-* gem list
-
-* gem uninstall <gem name>
-
-* rails routes
-
-* rails db:migrate
-
-* rails db:reset        //Reset-Rebuild database/tables/columns based on migration
-
-* cd rails-projects/saasapp/
-
-* rails s -b $IP -p $PORT
-
-* rails c -h    // for show all command lines)
-
-* rails c       -       rails c -s
-        Hirb.enable     // related to hirb gem
-        Contact.all
-        Contact.create(name: "test", description: "test")
-
-* rails g migrate <UserProfiles>
-
-* rails g controller <Users> <show>
-
-* rails g scaffold <User title:string description:text>
-
-* rails g paperclip <profile> <avatar>
-
-* rails g model <Play title:string description:text director:string>
-
-* rails g controller Plays -s    // -s means that skip the existing files
-
-* RAILS_ENV=production rake db:migrate 	//To run rails in production mode
-
-* rails server -e production
 ```
 
 
@@ -277,6 +223,8 @@ $ open -a "Atom" file.html  // To open a file in mac os with specific app.
 * ng serve --host 0.0.0.0 --port 8080 --live-reload-port 8081
 
 * ng serve --host 0.0.0.0 --public-host <workspace>-<username>.c9users.io //To run updated angular 2
+
+* ng build --prod --base-href <FullLinkURL>      //To Deploy to Production File
 ```
 
 
@@ -388,6 +336,70 @@ $ php -v
 
 // To unzip file from c9
 $ unzip <my_arch>.zip
+```
+
+
+## Rails
+
+```
+* ruby -v
+
+* brew upgrade ruby     //To update ruby with brew
+
+* rvm list rubies       //Check if rvm is installed
+
+* rvm install ruby-2.4.1  // To update ruby with rvm
+
+* rvm --default use 2.4.1   // To upgrade ruby in c9
+
+* rails -h      // to show all command lines)
+
+* gem install rails
+
+* rails -v
+
+* rails new <name>
+
+* bundle install
+
+* bundle check
+
+* gem list
+
+* gem uninstall <gem name>
+
+* rails routes
+
+* rails db:migrate
+
+* rails db:reset        //Reset-Rebuild database/tables/columns based on migration
+
+* cd rails-projects/saasapp/
+
+* rails s -b $IP -p $PORT
+
+* rails c -h    // for show all command lines)
+
+* rails c       -       rails c -s
+        Hirb.enable     // related to hirb gem
+        Contact.all
+        Contact.create(name: "test", description: "test")
+
+* rails g migrate <UserProfiles>
+
+* rails g controller <Users> <show>
+
+* rails g scaffold <User title:string description:text>
+
+* rails g paperclip <profile> <avatar>
+
+* rails g model <Play title:string description:text director:string>
+
+* rails g controller Plays -s    // -s means that skip the existing files
+
+* RAILS_ENV=production rake db:migrate 	//To run rails in production mode
+
+* rails server -e production
 ```
 
 
